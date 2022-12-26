@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins';
+    background-color: hsl(0, 0%, 98%);
+}
+
+.container{
+    margin: auto;
+}
+
+.cards{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.heading_div{
+    width: 470px;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 40px;
+}
+
+h1{
+    padding-left: 10%;
+}
+
+.heading_1{
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+
+.heading_2{
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 20px;
+}
+
+.first_para{
+    text-align: center;
+    font-size: 15px;
+    font-size: small;
+    color: hsl(229, 6%, 66%);
+}
+
+h4{
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color:  hsl(234, 12%, 34%);
+}
+
+p{
+    font-size: 11px;
+    margin-bottom: 30px;
+    color: hsl(229, 6%, 66%);
+}
+
+img{
+    height: 50px;
+    margin-left: 170px;
+}
+
+.cards_container{     
+    border-radius: 3%;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px  hsla(180, 62%, 55%, 0.1), 0px 6px 20px  hsla(229, 6%, 66%, 0.3);
+}
+
+.card_item{
+    height: 200px;
+    width: 300px;
+    padding-left: 30px;
+    padding-right: 50px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.card_1{
+    border-top: 4px solid hsl(180, 62%, 55%);
+   
+}
+
+.card_2{
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.card_3{
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.card_4{
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+
+
+/*MOBILE DESIGN FOR MAX-WIDTH: 375PX*/
+@media screen and (max-width: 375px)     {
+    
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.heading_div{
+    padding-right: 110px;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.first_para{
+    padding: 0px 30px 0px 30px;
+    font-size: larger;
+}
+
+.card_1{
+    margin: 0px;
+}
+
+.card_para{
+    padding-right: 10px;
+}
+
+.card_column{
+    margin-left: 25px;
+}
+
+.cards_container{
+    margin-bottom: 20px;
+}
+
+
+}
+
